@@ -88,6 +88,7 @@ main {
 footer, footer a {
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 #footer-content {
@@ -96,11 +97,21 @@ footer, footer a {
   align-items: center;
   margin-right: auto;
   width: 60%;
+  margin-left: 50px;
 }
 
-#linkedin, #Mail, #insta {
-  max-width: 30px;
+.footer-section {
+  max-width: 100px;
 }
+
+.footer-section ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
 /* Ajustez la taille des images en fonction de vos besoins 
 }
 /* FOOTER 
