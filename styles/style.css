@@ -77,6 +77,34 @@ main {
 
 /* FOOTER */
 
+#footerline {
+  background-color: #eff2ec;
+  border-top: #eaeaea 30px solid;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer, footer a {
+  background-color: black;
+  color: white;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+  width: 60%;
+}
+
+#linkedin, #Mail, #insta {
+  max-width: 30px;
+}
+/* Ajustez la taille des images en fonction de vos besoins 
+}
+/* FOOTER 
+
 footer {
 
   display: flex;
@@ -88,7 +116,6 @@ footer {
 
 }
 
-/*3 DIV : #footerline, #footertxt; #footerlinks */
 
 #footerline {
   background-color: #eff2ec;
@@ -98,26 +125,19 @@ footer {
   justify-content: center;
 }
 
-#footer {
-  background-color: #eff2ec;
-  border-top: #eaeaea 30px solid;
-  padding: 20px;
+#footer-section {
+  
 }
 
 #footer-content {
+  color: white;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  margin-left: auto;
 }
 
 .footer-section {
-  flex-basis: 30%; /* Chaque section occupe 30% de la largeur */
-}
-
-.footer-section h1 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #000;
+  flex-basis: 30%; /* Chaque section occupe 30% de la largeur 
 }
 
 .footer-section ul {
@@ -137,8 +157,12 @@ footer {
 }
 
 #linkedin, #Mail, #insta {
-  max-width: 30px; /* Ajustez la taille des images en fonction de vos besoins */
+  max-width: 30px; /* Ajustez la taille des images en fonction de vos besoins 
 }
+
+*/
+
+
 @media (max-width: 640px) 
 
 /* NAV MOBILE */
