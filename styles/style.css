@@ -101,7 +101,8 @@ footer, footer a {
 }
 
 .footer-section {
-  max-width: 100px;
+  
+  max-width: 150px;
 }
 
 .footer-section ul {
@@ -110,7 +111,9 @@ footer, footer a {
   align-items: center;
 }
 
-
+.footer-section ul li {
+  margin-right: 10px; /* Ajoute de l'espace entre chaque élément li */
+}
 
 /* Ajustez la taille des images en fonction de vos besoins 
 }
