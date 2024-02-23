@@ -70,7 +70,7 @@ nav ul {
 
 main {
   height: 100vh;
-  background-image: url("Images/fond.png");
+  background-image: url("../Images/fond.png");
   background-repeat: repeat-y;
   background-size: 100% auto;
 }
