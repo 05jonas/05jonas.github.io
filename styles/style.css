@@ -96,6 +96,7 @@ main {
   background-color: #eff2ec;
   border-top: #eaeaea 30px solid;
   width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
 }
