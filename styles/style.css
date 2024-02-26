@@ -92,6 +92,9 @@ main {
 
 /* FOOTER */
 
+footer {
+  max-width: 100%;
+}
 #footerline {
   background-color: #eff2ec;
   border-top: #eaeaea 30px solid;
