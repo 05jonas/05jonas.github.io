@@ -73,6 +73,21 @@ main {
   background-image: url("../Images/fond.png");
   background-repeat: repeat-y;
   background-size: 100% auto;
+  display: flex;
+}
+
+#tete {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+ 
+}
+
+#main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* FOOTER */
@@ -95,9 +110,8 @@ footer, footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: auto;
-  width: 60%;
-  margin-left: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .footer-section {
@@ -114,6 +128,8 @@ footer, footer a {
 .footer-section ul li {
   margin-right: 10px; /* Ajoute de l'espace entre chaque élément li */
 }
+
+
 
 /* Ajustez la taille des images en fonction de vos besoins 
 }
@@ -217,5 +233,21 @@ footer {
   nav.active ul {
     left: 0;
   }
-}
 
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+  #linemain {
+    display: none;
+  }
+  #tete {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 0%;
+  }
+}
