@@ -96,7 +96,6 @@ main {
   background-color: #eff2ec;
   border-top: #eaeaea 30px solid;
   width: 100%;
-  max-width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -109,6 +108,7 @@ footer, footer a {
 
 #footer-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-right: 20px;
@@ -116,7 +116,6 @@ footer, footer a {
 }
 
 .footer-section {
-  
   max-width: 150px;
 }
 
@@ -250,5 +249,9 @@ footer {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 0%;
+  }
+  .footer-section {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
