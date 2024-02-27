@@ -1,3 +1,5 @@
+/* CSS GENERIQUE JUSQU'A LIGNES 60 */
+
 
 * {
   margin: 0;
@@ -76,19 +78,6 @@ main {
   display: flex;
 }
 
-#tete {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-right: 2%;
- 
-}
-
-#main-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 /* FOOTER */
 
@@ -126,71 +115,9 @@ footer, footer a {
 }
 
 .footer-section ul li {
+  
   margin-right: 10px; /* Ajoute de l'espace entre chaque élément li */
 }
-
-
-
-/* Ajustez la taille des images en fonction de vos besoins 
-}
-/* FOOTER 
-
-footer {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: black;
-  color: white;
-  width: 100%;
-
-}
-
-
-#footerline {
-  background-color: #eff2ec;
-  border-top: #eaeaea 30px solid;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-#footer-section {
-  
-}
-
-#footer-content {
-  color: white;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-}
-
-.footer-section {
-  flex-basis: 30%; /* Chaque section occupe 30% de la largeur 
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 5px;
-}
-
-.footer-section a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-}
-
-#linkedin, #Mail, #insta {
-  max-width: 30px; /* Ajustez la taille des images en fonction de vos besoins 
-}
-
-*/
 
 
 @media (max-width: 640px) 
@@ -234,10 +161,6 @@ footer {
     left: 0;
   }
 
-  .footer-section {
-    display: flex;
-    flex-direction: column;
-  }
   main {
     flex-direction: column;
     height: auto;
@@ -245,13 +168,41 @@ footer {
   #linemain {
     display: none;
   }
+
+  .footer-section {
+    
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+}
+
+
+
+/* CSS SPECIFIQUE */
+
+/* INDEX */
+
+#tete {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+ 
+}
+
+#main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
   #tete {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 0%;
   }
-  .footer-section {
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
+
+/* BTS SIO */
