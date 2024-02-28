@@ -276,3 +276,27 @@ embed {
     height: 100vh;
   }
 }
+
+/* CONTACT */
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-left: 0;
+}
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-right: 0;
+}
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+}
