@@ -245,13 +245,16 @@ footer, footer a {
 
   align-items: center;
 }
+
+
 @media (max-width: 640px) {
   .btssio {
-    width: 100%;
+    margin: 0%;
     display: flex;
     flex-direction: column;
   }
 }
+
 
 
 /* PROFIL */
@@ -283,14 +286,14 @@ embed {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 49%;
   margin-left: 0;
 }
 .contact-right {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 49%;
   margin-right: 0;
 }
 .contact-links {
