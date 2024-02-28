@@ -6,7 +6,13 @@
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
-}
+  }
+
+ p {
+  font-size: 20px;
+  }
+  
+
 
 /* HEADER */
 
@@ -93,6 +99,7 @@ footer, footer a {
   background-color: black;
   color: white;
   text-align: center;
+  bottom: 0;
 }
 
 #footer-content {
@@ -112,35 +119,7 @@ footer, footer a {
 .footer-legal ul, .footer-contact ul, .footer-links ul, .footer-rights ul {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-
-
-
-
-@media (max-width: 640px) {
-  /* NAV MOBILE */
-  #icon {
-    display: block;
-    margin-left: auto;
-  }
-
-  #icon:before {
-    content: "\2630";
-  }
-
-  .active #icon:before {
-    content :"\2715";
-  }
-}
-
-
-.footer-section ul li {
-  
-  margin-right: 10px; /* Ajoute de l'espace entre chaque élément li */
-}
-
+  align-items: center; }
 
 @media (max-width: 640px) {
 
@@ -233,7 +212,7 @@ footer, footer a {
 
 .btssio {
   width: 100%;
-  margin: 5%; 
+  margin: 3%; 
   display: flex;
   justify-content: space-between;
 }
@@ -243,7 +222,6 @@ footer, footer a {
   display: flex;
   flex-direction: column;
 
-  align-items: center;
 }
 
 
@@ -283,9 +261,10 @@ embed {
 /* CONTACT */
 
 .contact {
+  max-width: 100%;
   width: 100%;
   display: flex;
-align-items: center;
+
 }
 
 .contact-left {
@@ -298,9 +277,7 @@ align-items: center;
 
 .contact-links {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   width: 50px;
 }
 
@@ -314,13 +291,52 @@ align-items: center;
 
 @media (max-width: 640px) {
   .contact {
+    max-width: 100%;
    width: 100%;
+   height: 100vh;
    display: flex;
    flex-direction: column;
-   justify-content: center;
+  
    align-items: center;
   }
   #contact-center-line {
     display: none;
+  }
+}
+
+/* VEILLE */
+
+
+.veille-top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.veille-top-left {
+  width: 70%;
+}
+@media (max-width: 640px) {
+  .veille-top {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+/* INFOS LEGALES */
+
+.main-legal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 640px) {
+  .main-legal {
+
+    max-width: 100%;
+    width: 100%;
   }
 }
