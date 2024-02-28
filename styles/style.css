@@ -231,6 +231,29 @@ footer, footer a {
 
 /* BTS SIO */
 
+.btssio {
+  width: 100%;
+  margin: 5%; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.sisr, .slam {
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+@media (max-width: 640px) {
+  .btssio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 /* PROFIL */
 
