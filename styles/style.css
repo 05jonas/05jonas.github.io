@@ -1,4 +1,4 @@
-/* CSS GENERIQUE JUSQU'A LIGNES 60 */
+/* CSS GENERIQUE */
 @font-face {
   font-family: 'Roboto-Thin';
   src: url(../fonts/Roboto-Thin.ttf);
@@ -14,12 +14,13 @@
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
-  }
+    }
 
- p {
+  p {
   font-size: 20px;
-  }
+    }
   
+
 
 
 /* HEADER */
@@ -184,7 +185,7 @@ footer, footer a {
 
   #footer-content {
     display: flex;
-    flex-direction: column; /* Change flex-direction to row */
+    flex-direction: column; 
   }
 
 }
@@ -246,7 +247,7 @@ footer, footer a {
 
 
 
-/* PROFIL */
+/* PROFIL PROJET*/
 
 #cv-main {
   display: flex;
@@ -351,11 +352,3 @@ embed {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
